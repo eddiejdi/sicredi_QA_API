@@ -6,7 +6,9 @@ import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
+/**
+ *  autor: Edenilson Teixeira Paschoa
+ */
 public class Simulacao_SICREDI_API_Test_Consulta {
     @Test
     public void ConsultaSimulacaoOK_200() throws URISyntaxException, IOException, InterruptedException {
